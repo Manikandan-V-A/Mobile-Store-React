@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Metropolis' sans-serif;
+    box-sizing: border-box;
+}
+.Mobile-bottom-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Mobile-bottom{
+    height: 100%;
+    width: 100% ;
+    background: linear-gradient(#dff5ffb2,#ff3f3f2f);
+    background-color: rgba(255, 94, 183, 0.205);
+}
+.Mobile-social-icons{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Mobile-social-icons a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.Mobile-social-icons a:hover{
+    color: #000000d8;
+    transform: translateY(-5px);
+}
+.Mobile-h1{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #000000c2;
+    text-align: center;
+}
+.Mobile-h2{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #000000ad;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Mobile-h2 span{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff1d1d86;
+}
+@media only screen and (max-width:600px){
+    .Mobile-h1{
+        margin-top: 15px;
+    }
+    .Mobile-h2{
+        margin-top: 10px;
+    }
+    .Mobile-h3{
+        margin-top: 10px;
+        padding: 10px;
+    }
+}

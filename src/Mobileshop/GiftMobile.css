@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.Gift-LR-main{
+    /* background-color: bisque; */
+    padding: 0px 0%;
+}
+.LR-row{
+    /* background-color: rgb(255, 140, 0); */
+    padding: 10px 10%;
+    display: flex;
+
+}
+.Gift-main-img{
+    flex-basis: 100%;
+}
+
+.Gift-img{
+    height: 100%;
+    width: 100%;
+}
+.Gift-Back-img{
+    display: none;
+}
+.Gift-img1{
+    height:100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Gift-img{
+        display: none;
+        flex-basis: 100%;
+    }
+    .Gift-Back-img{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 0px 0%; */
+    }
+}
+
+
+/* ---------------- Slogan -------------------- */
+
+.Slogan-container1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+    height: 92vh;
+}
+.Slogan-Contact-Main{
+    background-image: url(./assets/Solgan2.jpg);
+    background-size: contain;
+    text-align: center;
+    height: 100%;
+}
+.Slogan-contact-left{
+    flex-basis: 45%;
+    margin-top: 5%;
+    /* background-color: rgba(43, 43, 43, 0.747); */
+    background-color: rgba(87, 87, 87, 0.219);
+    border-radius: 20px 0px 0px 20px;
+    text-align: left;
+}
+.Slogan-contact-right{
+    flex-basis: 55%;
+    margin-top: 5%;
+    background-color: rgba(87, 87, 87, 0.219);
+    border-radius: 0px 20px 20px 0px;
+}
+.Slogan-sub-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 3%;
+    color: #000000ce;
+}
+.Slogan-contact-left h1{
+    margin-top: 10%;
+    margin-left: 3%;
+    color: rgba(0, 0, 0, 0.856);
+    font: small-caps bold 40px/1 sans-serif;
+}
+.Slogan-contact-left h2{
+    margin-top: 10%;
+    margin-left: 3%;
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 30px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Metropolis', sans-serif;  
+    font-weight: 500;
+    /* font: small-caps normal 30px/1 sans-serif; */
+}
+.Slogan-contact-left h3{
+    margin-top: 5%;
+    margin-left: 3%;
+    color: rgba(0, 0, 0, 0.692);
+    font: small-caps bold 30px/1 sans-serif;
+}
+
+.Slogan-btn.Slogan-btn2{
+    display: inline-block;
+    background: #886a0849;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    margin-bottom: 20px;
+}
+.Slogan-btn.Slogan-btn2:hover{
+    transform: translateY(-5px);
+}
+.Slogan-contact-right form{
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+}
+.Slogan-form input, .Slogan-form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #886a0849;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius:6px ;
+}
+form .Slogan-btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#msg{
+    color:#61b752;
+    margin-top: 10px;
+    display: block;
+    font-size: 20px;
+}  
+
+@media only screen and (max-width: 1000px) {
+
+    .Slogan-btn{
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+        padding: 14px 30px;
+    }
+    .Slogan-contact-left{
+        flex-basis: 100%;
+    }
+    .Slogan-contact-right{
+        flex-basis: 100%;
+    }
+    #msg{
+        color:#47ff27;
+        margin-top: 10px;
+        display: block;
+        font-size: 10px;
+    }
+    .Slogan-sub-title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 3%;
+        color: #000000ce;
+    }
+    .Slogan-contact-left h1{
+        margin-top: 5%;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.856);
+        font: small-caps bold 20px/1 sans-serif;
+    }
+    .Slogan-contact-left h2{
+        margin-top: 5%;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.692);
+        font-size: 15px;
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Metropolis', sans-serif;  
+        font-weight: 500;
+    }
+    .Slogan-contact-left h3{
+        margin-top: 5%;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.692);
+        font: small-caps bold 20px/1 sans-serif;
+    }
+    .Slogan-form input, .Slogan-form textarea{
+        width: 90%;
+        border: 0;
+        outline: none;
+        background: #886a0849;
+        padding: 5px 5px 5px 10px;
+        margin: 7px 0;
+        color: #fff;
+        font-size: 15px;
+        border-radius:6px ;
+    }
+    form .Slogan-btn2{
+        padding: 14px 60px;
+        font-size: 18px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .Slogan-container1{
+        /* background-color: red; */
+        padding: 10px 10%;
+        height: 100%;
+    }
+    .Slogan-Contact-Main{
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .Slogan-Contact-Main{
+        background-image: url(./assets/Sloganback2.jpg);
+        background-size:contain ;
+        height: 100%;
+    }
+    .Slogan-contact-left{
+        border-radius: 20px 20px 0px 0px;
+    }
+    .Slogan-contact-right{
+        border-radius: 0px 0px 20px 20px;
+    }
+}
