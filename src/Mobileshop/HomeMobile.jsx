@@ -307,7 +307,7 @@ const Cartbtn =()=>{
             {/* ----------------------------- Video Card --------------------------------  */}
 
             <div className="container-Mobile-Card">
-                <h2>Best <span> Selle</span><span className='rs'>rs</span> </h2>
+                <h2>Best <span> Mobile Bran</span><span className='rs'>ds</span> </h2>
                 <div className="container-Mobile-Card1">
                     <div className='main-Mobile-box'>
                         {
@@ -384,7 +384,7 @@ const Cartbtn =()=>{
  {/* ------------------------------ Ads --------------------------- */}
 
  <div className="container-Mobile-Card">
-                <h2>Best <span> Selle</span><span className='rs'>rs</span> </h2>
+                <h2>Best <span>Mobile Bran</span><span className='rs'>ds</span> </h2>
                 <div className="container-Mobile-Card1">
                     <div className='main-Mobile-box'>
                         {

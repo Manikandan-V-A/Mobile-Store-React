@@ -72,66 +72,66 @@ import { FaArrowUp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const cards1 = [
-    { id: 'NewApple1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewApple1 },
-    { id: 'NewApple2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewApple2 },
-    { id: 'NewApple3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'white', color3: 'black', colormore: '+3',  image1: NewApple3 },
-    { id: 'NewApple4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'black', color2: 'lightblue', color3: 'red', colormore: '+5', image1: NewApple4 },
+    { id: 'NewApple1', pname: 'Stone 620', price: '₹1,55,999', del: '₹1,75,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewApple1 },
+    { id: 'NewApple2', pname: 'Stone 520', price: '₹1,25,999', del: '₹1,55,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewApple2 },
+    { id: 'NewApple3', pname: 'Stone 420', price: '₹95,999', del: '₹1,25,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'white', color3: 'black', colormore: '+3',  image1: NewApple3 },
+    { id: 'NewApple4', pname: 'Stone 320', price: '₹65,999', del: '₹95,999', offer: '68% off', hour: 'Best Value for Money', color1: 'black', color2: 'lightblue', color3: 'red', colormore: '+5', image1: NewApple4 },
 ]
 
 const cards2 = [
-    { id: 'NewSamsung1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewSamsung1 },
-    { id: 'NewSamsung2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewSamsung2 },
-    { id: 'NewSamsung3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewSamsung3 },
-    { id: 'NewSamsung4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewSamsung4 },
+    { id: 'NewSamsung1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewSamsung1 },
+    { id: 'NewSamsung2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewSamsung2 },
+    { id: 'NewSamsung3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewSamsung3 },
+    { id: 'NewSamsung4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewSamsung4 },
 ]
 
 const cards3 = [
-    { id: 'NewIqoo1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewIqoo1 },
-    { id: 'NewIqoo2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewIqoo2 },
-    { id: 'NewIqoo3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewIqoo3 },
-    { id: 'NewIqoo4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewIqoo4 },
+    { id: 'NewIqoo1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewIqoo1 },
+    { id: 'NewIqoo2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewIqoo2 },
+    { id: 'NewIqoo3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewIqoo3 },
+    { id: 'NewIqoo4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewIqoo4 },
 ]
 
 const cards4 = [
-    { id: 'NewOneplus1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewOneplus1 },
-    { id: 'NewOneplus2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewOneplus2 },
-    { id: 'NewOneplus3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewOneplus3 },
-    { id: 'NewOneplus4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewOneplus4 },
+    { id: 'NewOneplus1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewOneplus1 },
+    { id: 'NewOneplus2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewOneplus2 },
+    { id: 'NewOneplus3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewOneplus3 },
+    { id: 'NewOneplus4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewOneplus4 },
 ]
 
 const cards5 = [
-    { id: 'NewVivo1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewVivo1 },
-    { id: 'NewVivo2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewVivo2 },
-    { id: 'NewVivo3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewVivo3 },
-    { id: 'NewVivo4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewVivo4 },
+    { id: 'NewVivo1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewVivo1 },
+    { id: 'NewVivo2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewVivo2 },
+    { id: 'NewVivo3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewVivo3 },
+    { id: 'NewVivo4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewVivo4 },
 ]
 
 const cards6 = [
-    { id: 'NewRedmi1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewRedmi1 },
-    { id: 'NewRedmi2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewRedmi2 },
-    { id: 'NewRedmi3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewRedmi3 },
-    { id: 'NewRedmi4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewRedmi4 },
+    { id: 'NewRedmi1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewRedmi1 },
+    { id: 'NewRedmi2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewRedmi2 },
+    { id: 'NewRedmi3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewRedmi3 },
+    { id: 'NewRedmi4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewRedmi4 },
 ]
 
 const cards7 = [
-    { id: 'NewRealme1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewRealme1 },
-    { id: 'NewRealme2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewRealme2 },
-    { id: 'NewRealme3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewRealme3 },
-    { id: 'NewRealme4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewRealme4 },
+    { id: 'NewRealme1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewRealme1 },
+    { id: 'NewRealme2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewRealme2 },
+    { id: 'NewRealme3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewRealme3 },
+    { id: 'NewRealme4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewRealme4 },
 ]
 
 const cards8 = [
-    { id: 'NewAsus1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewAsus1 },
-    { id: 'NewAsus2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewAsus2 },
-    { id: 'NewAsus3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewAsus3 },
-    { id: 'NewAsus4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewAsus4 },
+    { id: 'NewAsus1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewAsus1 },
+    { id: 'NewAsus2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewAsus2 },
+    { id: 'NewAsus3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewAsus3 },
+    { id: 'NewAsus4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewAsus4 },
 ]
 
 const cards9 = [
-    { id: 'NewHuawei1', pname: 'Stone 620', price: '₹1,999', del: '₹5,999', offer: '60% off', hour: '60 Hours Playback', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewHuawei1 },
-    { id: 'NewHuawei2', pname: 'Stone 520', price: '₹1,999', del: '₹2,999', offer: '27% off', hour: '30 Hours Playback', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewHuawei2 },
-    { id: 'NewHuawei3', pname: 'Stone 420', price: '₹1,999', del: '₹2,999', offer: '45% off', hour: '12 Hours Playback', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewHuawei3 },
-    { id: 'NewHuawei4', pname: 'Stone 320', price: '₹1,999', del: '₹2,999', offer: '68% off', hour: '27 Hours Playback', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewHuawei4 },
+    { id: 'NewHuawei1', pname: 'Stone 620', price: '₹55,999', del: '₹5,999', offer: '60% off', hour: 'Best All Rounder', color1: 'red', color2: 'black', color3: 'lightblue', colormore: '+5', image1: NewHuawei1 },
+    { id: 'NewHuawei2', pname: 'Stone 520', price: '₹55,999', del: '₹2,999', offer: '27% off', hour: 'Best Camera Mobile', color1: 'grey', color2: 'white', color3: 'black', colormore: '+4',    image1: NewHuawei2 },
+    { id: 'NewHuawei3', pname: 'Stone 420', price: '₹55,999', del: '₹2,999', offer: '45% off', hour: 'Best Gaming Mobile', color1: 'yellow', color2: 'black', color3: 'white', colormore: '+3',  image1: NewHuawei3 },
+    { id: 'NewHuawei4', pname: 'Stone 320', price: '₹55,999', del: '₹2,999', offer: '68% off', hour: 'Best Value for Money', color1: 'red', color2: 'rose', color3: 'lightblue', colormore: '+5',  image1: NewHuawei4 },
 ]
 
 const datas4 = [
@@ -188,9 +188,9 @@ export function NewMobile() {
             <div id="Container1" className="NewsBrands1-main">
                 <div className="row">
                     <div className="NewsBrands1-left">
-                        <h1>True Wireless</h1>
-                        <h1><span>Earbuds </span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>Apple iphone</h1>
+                        <h1><span>15 pro Max</span></h1>
+                        <h3>Staring from ₹59,999*</h3>
                         <button className="NewsBrands1-btn">Shop Product</button>
                     </div>
                     <div className="NewsBrands1-right">
@@ -255,8 +255,8 @@ export function NewMobile() {
                         <img className="NewsBrands2-img" src={NewBrand2} alt="" />
                     </div>
                     <div className="NewsBrands2-right">
-                        <h1>Smart <span>Watch</span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>SAMSUNG <span>S24</span></h1>
+                        <h3>Staring from ₹55,999*</h3>
                         <button className="NewsBrands2-btn">Shop Product</button>
                     </div>
 
@@ -315,9 +315,8 @@ export function NewMobile() {
             <div id="Container3" className="NewsBrands3-main">
                 <div className="row">
                     <div className="NewsBrands3-left">
-                        <h1>True Wireless</h1>
-                        <h1><span>Earbuds </span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>iQOO<span> 12 Pro </span></h1>
+                        <h3>Staring from ₹45,999*</h3>
                         <button className="NewsBrands3-btn">Shop Product</button>
                     </div>
                     <div className="NewsBrands3-right">
@@ -382,8 +381,8 @@ export function NewMobile() {
                         <img className="NewsBrands4-img" src={NewBrand4} alt="" />
                     </div>
                     <div className="NewsBrands4-right">
-                        <h1>Smart <span>Watch</span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>OnePlus <span>12 Pro</span></h1>
+                        <h3>Staring from ₹55,999*</h3>
                         <button className="NewsBrands4-btn">Shop Product</button>
                     </div>
 
@@ -442,9 +441,8 @@ export function NewMobile() {
             <div id="Container5" className="NewsBrands5-main">
                 <div className="row">
                     <div className="NewsBrands5-left">
-                        <h1>True Wireless</h1>
-                        <h1><span>Earbuds </span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>Vivo<span> X 100 </span></h1>
+                        <h3>Staring from ₹79,999*</h3>
                         <button className="NewsBrands5-btn">Shop Product</button>
                     </div>
                     <div className="NewsBrands5-right">
@@ -508,8 +506,8 @@ export function NewMobile() {
                         <img className="NewsBrands6-img" src={NewBrand6} alt="" />
                     </div>
                     <div className="NewsBrands6-right">
-                        <h1>Smart <span>Watch</span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>Xiaomi <span>14 Pro</span></h1>
+                        <h3>Staring from ₹69,999*</h3>
                         <button className="NewsBrands6-btn">Shop Product</button>
                     </div>
 
@@ -568,9 +566,8 @@ export function NewMobile() {
             <div id="Container7" className="NewsBrands7-main">
                 <div className="row">
                     <div className="NewsBrands7-left">
-                        <h1>True Wireless</h1>
-                        <h1><span>Earbuds </span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>Realme<span> GT6 </span></h1>
+                        <h3>Staring from ₹59,999*</h3>
                         <button className="NewsBrands7-btn">Shop Product</button>
                     </div>
                     <div className="NewsBrands7-right">
@@ -634,8 +631,8 @@ export function NewMobile() {
                         <img className="NewsBrands8-img" src={NewBrand8} alt="" />
                     </div>
                     <div className="NewsBrands8-right">
-                        <h1>Smart <span>Watch</span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>Asus <span>7 Ultimate</span></h1>
+                        <h3>Staring from ₹59,999*</h3>
                         <button className="NewsBrands8-btn">Shop Product</button>
                     </div>
 
@@ -694,9 +691,8 @@ export function NewMobile() {
             <div id="Container9" className="NewsBrands9-main">
                 <div className="row">
                     <div className="NewsBrands9-left">
-                        <h1>True Wireless</h1>
-                        <h1><span>Earbuds </span></h1>
-                        <h3>Staring from ₹1,999*</h3>
+                        <h1>Huawei <span>P70+ </span></h1>
+                        <h3>Staring from ₹59,999*</h3>
                         <button className="NewsBrands9-btn">Shop Product</button>
                     </div>
                     <div className="NewsBrands9-right">
